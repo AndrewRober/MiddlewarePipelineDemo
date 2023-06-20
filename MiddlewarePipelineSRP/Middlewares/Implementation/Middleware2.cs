@@ -1,4 +1,6 @@
-﻿namespace MiddlewarePipelineSRP
+﻿using MiddlewarePipelineSRP.Middlewares.Interface;
+
+namespace MiddlewarePipelineSRP.Middlewares.Implementation
 {
     /// <summary>
     /// Middleware2 class implements the IMiddleware interface and performs specific actions based on the context handler.

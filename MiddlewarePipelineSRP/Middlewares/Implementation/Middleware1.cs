@@ -1,4 +1,6 @@
-﻿namespace MiddlewarePipelineSRP
+﻿using MiddlewarePipelineSRP.Middlewares.Interface;
+
+namespace MiddlewarePipelineSRP.Middlewares.Implementation
 {
     /// <summary>
     /// Middleware1 class implements the IMiddleware interface and performs specific actions based on the context handler.
@@ -16,16 +18,16 @@
             // Perform logging functionality here
             Console.WriteLine("[Middleware1] Request started");
 
-            if(context.Handler == ContextHandler.FaultyContext1)
+            if (context.Handler == ContextHandler.FaultyContext1)
             {
                 throw new Exception("Faulty context");
             }
 
-            if(context.Handler == ContextHandler.DummyType1)
+            if (context.Handler == ContextHandler.DummyType1)
             {
                 Console.WriteLine("[Middleware1] terminated the request from the pipeline");
                 return;
-            }    
+            }
 
             // Call the next middleware in the pipeline
             await next();

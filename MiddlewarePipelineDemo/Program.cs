@@ -1,4 +1,5 @@
 ﻿using MiddlewarePipelineSRP;
+using MiddlewarePipelineSRP.Middlewares.Implementation;
 
 namespace MiddlewarePipelineDemo
 {

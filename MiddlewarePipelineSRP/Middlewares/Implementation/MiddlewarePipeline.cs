@@ -1,4 +1,5 @@
 ﻿using System.Net.Http;
+using MiddlewarePipelineSRP.Middlewares.Interface;
 
 namespace MiddlewarePipelineSRP
 {

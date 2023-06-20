@@ -1,4 +1,4 @@
-﻿namespace MiddlewarePipelineSRP
+﻿namespace MiddlewarePipelineSRP.Middlewares.Interface
 {
     /// <summary>
     /// IMiddleware interface defines a common contract for middlewares in the pipeline.

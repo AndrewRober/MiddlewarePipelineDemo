@@ -1,4 +1,6 @@
-﻿namespace MiddlewarePipelineSRP
+﻿using MiddlewarePipelineSRP.Middlewares.Interface;
+
+namespace MiddlewarePipelineSRP.Middlewares.Implementation
 {
     /// <summary>
     /// Middleware that handles exceptions thrown by the subsequent middlewares in the pipeline.

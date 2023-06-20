@@ -1,4 +1,6 @@
-﻿namespace MiddlewarePipelineSRP
+﻿using MiddlewarePipelineSRP.Middlewares.Interface;
+
+namespace MiddlewarePipelineSRP.Middlewares.Implementation
 {
     /// <summary>
     /// LoggingMiddleware class implements the IMiddleware interface and logs the start and end of a request.
