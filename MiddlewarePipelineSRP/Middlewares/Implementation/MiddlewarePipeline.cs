@@ -1,7 +1,6 @@
-﻿using System.Net.Http;
-using MiddlewarePipelineSRP.Middlewares.Interface;
+﻿using MiddlewarePipelineSRP.Middlewares.Interface;
 
-namespace MiddlewarePipelineSRP
+namespace MiddlewarePipelineSRP.Middlewares.Implementation
 {
     /// <summary>
     /// MiddlewarePipeline class manages a collection of middlewares and executes them in a defined order.
